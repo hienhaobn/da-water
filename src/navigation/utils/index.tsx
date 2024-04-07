@@ -1,5 +1,6 @@
 import {
   createNavigationContainerRef,
+  DrawerActions,
   StackActions,
 } from '@react-navigation/native';
 
@@ -51,4 +52,14 @@ export function getCurrentRoute() {
 
 export function pushToPage(name: string, params?: object): void {
   navigationRef.current?.dispatch(StackActions.push(name, params));
+}
+
+export function openDrawer(): void {
+  navigationRef.current?.dispatch(DrawerActions.openDrawer());
+}
+export function closeDrawer(): void {
+  navigationRef.current?.dispatch(DrawerActions.closeDrawer());
+}
+export function toggleDrawer(): void {
+  navigationRef.current?.dispatch(DrawerActions.toggleDrawer());
 }

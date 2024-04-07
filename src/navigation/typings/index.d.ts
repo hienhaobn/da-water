@@ -14,3 +14,7 @@ export type MainTabParamList = {
   Notification: undefined;
   Settings: undefined;
 };
+
+export type HomeDrawerParamsList = {
+  HomeScreen: undefined;
+};

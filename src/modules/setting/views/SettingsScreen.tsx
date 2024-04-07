@@ -1,11 +1,12 @@
-import {View, Text} from 'react-native';
+import ViewWrap from '@components/ViewWrap';
 import React from 'react';
+import {Text} from 'react-native';
 
 function SettingsScreen() {
   return (
-    <View>
-      <Text>SettingsScreen</Text>
-    </View>
+    <ViewWrap>
+      <Text>Setting</Text>
+    </ViewWrap>
   );
 }
 

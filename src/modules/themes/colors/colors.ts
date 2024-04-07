@@ -1,12 +1,14 @@
 export const CommonColors = {
   transparent: 'transparent',
   main: '#30BDF8',
-  main2: '#00DDB3',
+  main2: '#73C2FB',
+  main3: '#00d2ff',
   green: '#00B277',
   red: '#E02D3C',
   black: '#000000',
   white: '#FFFFFF',
   bgScan: '#FFFFFF3D',
+  textGray: '#625D5D',
   gray: '#999999',
   gray1: '#888888',
   gray2: '#F2F2F2',
@@ -17,7 +19,9 @@ export const CommonColors = {
   gray7: '#E2E2E2',
   d3d3d3: '#D3D3D3',
   customToastError: '#F9E3E3',
+  textColor: '#000000',
   blackOpacity80: 'rgba(0, 0, 0, 0.8)',
+  blue1: '#2F2FF7',
 };
 
 export const LightTheme = {
@@ -59,7 +63,7 @@ export const LightTheme = {
   orderDetailHeaderColor: '#F8F8F8',
   bgButtonOpenSwipe: '#F2F2F2',
   borderBtnBackConvert: 'rgba(0, 0, 0, 0.3)',
-  textTabBar: '#333333',
+  textTabBar: '#6D7387',
 };
 
 export const DarkTheme = {
